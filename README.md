@@ -18,7 +18,7 @@ The following depicts the key steps taken in operationalizing the ml model(s).
 1. Authentication: I was using the lab environment and had therefore no need to install the Azure ML Extension and create the Service Principal account. However, I had to authenticate in a later step when enabling logging. 
 2. Automated ML Experiment: 
     - After launching the Azure ML Studio, I found the already registered dataset [bank marketing dataset](dataset/bankmarketing_train.csv). 
-    ![](./screenshots/1.png)
+    ![](./screenshots/1b.png)
     - I created a compute cluster called ml-ops-2 using a Standard_DS12_v2 VM and 1 as the minimum and maximum number of nodes. 
     - I created a new AutoML run with as a new experiment, gave it the label column "y" and configured it to start on my previously created compute cluster
     ![](./screenshots/2.png)
