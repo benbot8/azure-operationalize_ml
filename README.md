@@ -81,7 +81,7 @@ The following depicts the key steps taken in operationalizing the ml model(s).
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://youtu.be/WLtbem5b1dA
 
 ## Standout Suggestions
 It is important to mention, that the dataset is very imbalanced, resulting in a negative impact on the model's accuracy. It is easy for the model to be very accurate just by predicting the majority class, while the accuracy for the minority class can fail miserably. This means that taking into account a simple metric like accuracy in order to judge how good our model is can be misleading. 
